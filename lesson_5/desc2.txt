@@ -1,0 +1,15 @@
+Modified task :D
+
+
+1.cript should get  name input  from command prompt and will create file in this format: 
+name-<date>. You can use date command inside your script.  
+Final created file should look like "name"-2022-10-05-17-17-22 (this is example file and name and date should be different)
+This file "name"-2022-10-05-17-17-22 should contains information about ssh connection on the system.
+Finally file should be compressed
+
+2. The file has been compressed gzip,bzip2, zip 
+ 
+
+
+
+ 
