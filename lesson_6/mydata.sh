@@ -2,10 +2,13 @@
 
 
 
-name=Manushak
-surename=Karapetyan
-age=16					
-gander=F
+name=$1
+lastname=$2
+age=$3
+gender=$4
+
+
+
 
 echo "${name} ${surename} ${age} ${gander}" >> mydata
 
