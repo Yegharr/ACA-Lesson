@@ -1,0 +1,2 @@
+Write a script that will ask a number from user and then using if condition verify if number is divisible by 5,
+ if condition meets then print “Divisible” else print “Not Divisible” 
