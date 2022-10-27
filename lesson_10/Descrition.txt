@@ -1,0 +1,14 @@
+This Script  will help you get important details of your machine like:
+
+
+IP Details
+Uptime
+Last login details
+Disk Space Utilization
+Free Memory Stats
+
+
+Above Script  triggered from Crontab every 1 Hour
+Keep a backup of last 10 Reports in the system at /root/ directory , 
+older reports must get deleted as we need to keep last 10 reports only
+The script has been written the way that you can use any time frame the script will keeped only last ten logs only.
