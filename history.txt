@@ -1,0 +1,1016 @@
+1016 ls -l 1017 cd lesson_10 1018 touch script.sh 1019 chmod +x script.sh 1020 stat script.sh 1021 vim script.sh 1022 ./script.sh 1023 cd ~ 1024 ls -l 1025 mkdir logfolder 1026 ls -l 1027 cd Git/ACA-Lesson/lesson_10 1028 ls -l 1029 vim script.sh 1030 ./script.sh 1031 ls -l 1032 mkdir Direct 1033 ls -l 1034 vim script.sh 1035 ./script.sh 1036 cd Direct/ 1037 pwd 1038 cd .. 1039 vim script.sh 1040 ./script.sh 1041 ls Direct 1042 ls -l 1043 vim script.sh 1044 ./script.sh 1045 ls -l Direct 1046 vim 19:35.txt 1047 ls -l 1048 cd Direct/ 1049 ls -l 1050 cat 19:35.txt 1051 cd .. 1052 ls -l 1053 rm *.txt 1054 ls -l 1055 vim script.sh 1056 ./script.sh 1057 cd Direct/ 1058 ls -l 1059 vim 19:41.txt 1060 cd .. 1061 ls -l 1062 vim script.sh 1063 ls -l 1064 cd Direct/ 1065 ls -l 1066 vim 19:41.txt 1067 ls 1068 cd ~ 1069 $ sudo systemctl start cron 1070 sudo systemctl start cron 1071 sudo systemctl status cron 1072 crontab –e 1073 sudo reboot 1074 ls -l 1075 rm -rf logfolder/ 1076 ls -l 1077 sudo systemctl start cron 1078 crontab -e 1079 cd Git/ACA-Lesson/lesson_10/ 1080 ls -l 1081 pwd 1082 cd~ 1083 cd ~ 1084 crontab -e 1085 cd /home/yegharr/Git/ACA-Lesson/lesson_10 1086 ls -l 1087 cd Direct/ 1088 ls -l 1089 pwd 1090 cd.. 1091 cd .. 1092 ls -l 1093 pwd 1094 ./script.sh 1095 ls -l 1096 ls Direct/ 1097 cd Direct/ 1098 ls -l 1099 ls -t 1100 ls -lt 1101 ls -lt | tail -20 1102 ls |wc -l 1103 ls -t | tail -24 1104 ls -l 1105 wc -l 1106 ls | wc -l 1107 cd .. 1108 vim script.sh 1109 cd Direct/ 1110 ls -lt 1111 cd .. 1112 ./script.sh 1113 vim script.sh 1114 ./script.sh 1115 ls -l 1116 cd Direct/ 1117 ls -l 1118 cd .. 1119 vim script.sh 1120 ./script.sh 1121 vim script.sh 1122 ./script.sh 1123 vim script.sh 1124 ./script.sh 1125 vim script.sh 1126 ./script.sh 1127 vim script.sh 1128 ./script.sh 1129 vim script.sh 1130 ./script.sh 1131 vim script.sh 1132 vim script.sh 1133 ls -l 1134 Direct/ 1135 ls Direct/ 1136 ls -l 1137 touch script.sh 1138 vim script.sh 1139 chod +x script.sh 1140 chmod +x script.sh 1141 ls -l 1142 ./script.sh 1143 vim script.sh 1144 ./script.sh 1145 cd Direct/ 1146 ls -l 1147 cd .. 1148 vim script.sh 1149 ./script.sh 1150 cd Direct/ 1151 ls -l | wc -l 1152 vim script.sh 1153 cd -l 1154 cd .. 1155 ls -l 1156 vim script.sh 1157 ./script.sh 1158 cd Direct/ 1159 ls -l 1160 ls -l |wc -l 1161 ls -l 1162 ./script.sh 1163 ls -l 1164 ls -l |wc -l 1165 ls -l 1166 ls -l |wc -l 1167 ls -l 1168 cd Git/ACA-Lesson/lesson_10/ 1169 ls -l 1170 ./script.sh 1171 vim ./script.sh 1172 ./script.sh 1173 ls -l 1174 cd Direct/ 1175 ls -l 1176 ls -l|wc -l 1177 ls -l 1178 ls -l|wc -l 1179 sudo poweroff 1180 crontab -e 1181 sudo tail -f /var/log/syslog 1182 crontab -e 1183 sudo tail -f /var/log/syslog 1184 ls -t 1185 crontab -e 1186 cd Git/ACA-Lesson/lesson_10 1187 ls -l 1188 vim script.sh 1189 ./script.sh 1190 vim script.sh 1191 ./script.sh 1192 vim script.sh 1193 ./script.sh 1194 vim script.sh 1195 ./script.sh 1196 vim script.sh 1197 ./script.sh 1198 vim script.sh 1199 ./script.sh 1200 ls -l 1201 rm 10 1202 rm 111.txt 1203 rm test.doc 1204 ll 1205 ls -l 1206 rm -rf test.doc 1207 ls -l 1208 cat script1.sh 1209 cd Git/ 1210 ls -l 1211 cd ACA-Lesson/ 1212 cd lesson_10 1213 ls -l 1214 cd Direct/ 1215 ls -l 1216 rm *.txt 1217 ls -l 1218 ls /home/yegharr/Git/ACA-Lesson/lesson_10/Direct/ | wc -l 1219 ls -l 1220 ls -dt 1221 ls -l 1222 tail -n 1223 man tail 1224 man tail -n 1225 tail -n 1226 tail -n10 1227 ls -l | tail -n 1228 cd .. 1229 ls -l 1230 cd Direct/ 1231 ls -l 1232 tail -n 1233 tail -10 1234 tail -3 1235 tail -n 10 1236 ls -l 1237 ls -l | tail -n 10 1238 ls -l | head -n 5 1239 ls -l | head -n 10 1240 ls -l | head +n 10 1241 ls -l | head -n 10 1242 cd .. 1243 ls -l 1244 head -n Direct/ 1245 head -n 10 Direct/ 1246 ls -l | head -n 10 1247 cd Direct/ 1248 ls -l | head -n 10 1249 ls -dt | tail -n 10 1250 ls -dt | tail -n 5 1251 ls -t | tail -n 5 1252 ls -t | tail -n 7 1253 ls -l 1254 ls -t | tail -n 7 1255 ls -t 1256 wc -l 1257 ls -t | wc -l 1258 ls -t | tail -n 10 1259 ls -t 1260 ls -lt 1261 ls -t | wc -l 1262 ls -lt 1263 ls -t | wc -l 1264 ls -lt 1265 ls -l 1266 ls -t | wc -l 1267 ls -lt 1268 ls -t | wc -l 1269 ls -lt 1270 ls -t | wc -l 1271 ls -lt 1272 ls -t | wc -l 1273 ls -lt 1274 ls -t | wc -l 1275 ls -lt 1276 ls -t | wc -l 1277 ls -lt 1278 ls -t | wc -l 1279 ls -lt 1280 ls -t | wc -l 1281 ls -lt 1282 ls -t | wc -l 1283 ls -lt 1284 ls -t | wc -l 1285 ls -lt 1286 ls -t | wc -l 1287 ls -lt 1288 cd Git/ 1289 cd ACA-Lesson/lesson_10 1290 ls -l 1291 vim script.sh 1292 cd Direct/ 1293 ls -lt 1294 cd .. 1295 vim script.sh 1296 ./script.sh 1297 vim script.sh 1298 ./script.sh 1299 vim script.sh 1300 cd Git/ACA-Lesson/lesson_10 1301 ls -l 1302 cd Direct/ 1303 ls -l 1304 rm -rf *.log 1305 ls -l 1306 pwd 1307 ls -l 1308 rm *.log 1309 ls -l 1310 ls -lt 1311 rm -rf *txt;log 1312 rm -rf *.txt;.log 1313 rm -rf *.txt 1314 rm -rf *.log 1315 ls -l 1316 ls -lt 1317 cat script.sh 1318 cat 15:23 10.2022.log 1319 ls -lt 1320 ls -l 1321 rm 15:38 10.2022.log 1322 rm -rf 15:38 10.2022.log 1323 ls -l 1324 rm -rf *.txt 1325 rm -rf *.log 1326 ls -l 1327 ls 1328 ls -l 1329 ls 1330 ls -l 1331 rm -rf *.log 1332 ls -l 1333 vim 15:46.log 1334 ls -lt 1335 ls -l 1336 ls -lt 1337 ls -lt |wc -l 1338 ls -lt 1339 ls 1340 wc -l 1341 ls -lt |wc -l 1342 ls -l 1343 ls -lah 1344 rm -rf .txt 1345 rm -rf .log 1346 ls -lah 1347 ls -l 1348 ls -lt |wc -l 1349 ls -lt 1350 ls -lt |wc -l 1351 ls -lt 1352 ls -lt |wc -l 1353 ls -l 1354 ls -lt |wc -l 1355 ls -lt 1356 ls -lt |wc -l 1357 ls -lt 1358 ls -lt |wc -l 1359 ls -lt 1360 ls -lt |wc -l 1361 ls -lt 1362 ls -lt |wc -l 1363 ls -lt 1364 ls -l 1365 ls -lt |wc -l 1366 sudo su 1367 cd /home/yegharr/Git/ACA-Lesson/lesson_10 1368 ls -l 1369 ./script.sh 1370 crontab -e 1371 ./script.sh 1372 vim script.sh 1373 ./script.sh 1374 vim script.sh 1375 ./script.sh 1376 vim script.sh 1377 ./script.sh 1378 vim script.sh 1379 ./script.sh 1380 vim script.sh 1381 ./script.sh 1382 vim script.sh 1383 ./script.sh 1384 vim script.sh 1385 ./script.sh 1386 vim script.sh 1387 ./script.sh 1388 vim script.sh 1389 ./script.sh 1390 vim script.sh 1391 ./script.sh 1392 vim script.sh 1393 ./script.sh 1394 vim script.sh 1395 ./script.sh 1396 vim script.sh 1397 ./script.sh 1398 vim script.sh 1399 ./script.sh 1400 vim script.sh 1401 ./script.sh 1402 vim script.sh 1403 ./script.sh 1404 cat script.sh 1405 vim script.sh 1406 ./script.sh 1407 vim script.sh 1408 ./script.sh 1409 vim script.sh 1410 ./script.sh 1411 vim script.sh 1412 ./script.sh 1413 vim script.sh 1414 ./script.sh 1415 crontab -e 1416 vim script.sh 1417 sudo su 1418 sudo crontab -e 1419 cd Git/ACA-Lesson/lesson_10 1420 ls -l 1421 vim script.sh 1422 ./script.sh 1423 bash script.sh 1424 ls -l 1425 sudo su 1426 sudo su 1427 sudo su 1428 ls -l 1429 mkdir Bash_scrips 1430 ls -l 1431 cd Bash_scrips/ 1432 ls -l 1433 pwd 1434 clear 1435 ls -l 1436 cd ~ 1437 ls -l 1438 cd Bash_scrips/ 1439 ls -l 1440 ls -la 1441 ls 1442 la 1443 ls 1444 ls -l 1445 cd 1446 ls -l 1447 pwd 1448 mkdir Bash_scrips 1449 ls -lt 1450 chmod +x Bash_scrips/ 1451 stat Bash_scrips/ 1452 ls -l 1453 cat script1.sh 1454 mv script1.sh Bash_scrips/ 1455 ls -l 1456 cd /var/log 1457 ls -l 1458 cd 1459 cd /var/log 1460 ls -l 1461 ls -l 1462 ls Bash_scrips/ 1463 sudo su 1464 cd~ 1465 cd ~ 1466 crontab 1467 crontab -e 1468 cd /home/yegharr/Git/ACA-Lesson/lesson_10 1469 ls -l 1470 cd 1471 sudo su 1472 cd 1473 ls -l 1474 vim tx.log 1475 history 1476 clear 1477 ls -l 1478 cd Bash_scrips/ 1479 ls -l 1480 ls -lt 1481 ls -la 1482 cd .vscode 1483 ls -l 1484 cd 1485 ls -l 1486 lesson_10 lesson_4 lesson_5 lesson_6 lesson_7 lesson_9 *.txt 1487 rm *.txt 1488 y 1489 rm - rf*.txt 1490 rm - rf *.txt 1491 rm - rv *.txt 1492 ls -l 1493 cd Bash_scrips/ 1494 ls -l 1495 ls -la 1496 mv .vscode vscode 1497 ls -l 1498 cd vscode/ 1499 ls -l 1500 cd 1501 date 1502 cd Git/ACA-Lesson/lesson_10 1503 ls -l 1504 pwd 1505 ls -l 1506 cat script1.sh 1507 rm script.sh 1508 ls -l 1509 mv script1.sh script.sh 1510 ls -l 1511 cat script.sh 1512 touch Descrition 1513 touch Descrition.txt 1514 rm Descrition 1515 ls -l 1516 cd Direct/ 1517 ls -l 1518 sudo crontab -e 1519 ls -l 1520 rm *.log 1521 rm -rf *.log 1522 ls -l 1523 sudo crontab -e 1524 cd .. 1525 ls -l 1526 sudo crontab -e 1527 bash script.sh 1528 sudo bash script.sh 1529 chmod 700 script.sh 1530 sudo chmod 700 script.sh 1531 stat script.sh 1532 sudo chmod +x script.sh 1533 stat script.sh 1534 sudo chmod 755 script.sh 1535 stat script.sh 1536 ls -l 1537 rm -rf Direct 1538 ls -l 1539 vim Descrition.txt 1540 ls -l 1541 cat Descrition.txt 1542 cd .. 1543 git add 1544 git add lesson_10 1545 git status 1546 git commit -m "task_10" 1547 git push main 1548 git push origin main 1549 ls -l 1550 cd 1551 ls /var/log 1552 ls -lta 1553 ls -lt 1554 cd /var/log/ 1555 ls -lt 1556 vim syslog 1557 cd 1558 grep "error"/var/log/ >> logs.txt 1559 ls -l 1560 cat logs.txt 1561 grep 'error'/var/log/ >> logs.txt 1562 ls -l 1563 grep -i 'error'/var/log/ >> logs.txt 1564 cd /var/log/ 1565 ls -l 1566 cd 1567 ls -l 1568 grep -i 'error'/var/log/syslog >> logs.txt 1569 sudo su 1570 locate sftp.json 1571 find / -name "test.sh" 1572 ls 1573 cd Bash_scrips/ 1574 ls 1575 apt install mlocate 1576 sudo apt install mlocate 1577 updatedb 1578 sudo su 1579 ls -l 1580 cd Git/ 1581 . 1582 cp ../tx.log . 1583 ls -l 1584 mv -i ../tx.log . 1585 ls -l 1586 . 1587 cd - 1588 cd Git/ 1589 cd . 1590 cd - 1591 pwd 1592 sudo apt get update 1593 sudo apt update 1594 sudo apt upgrade 1595 ls -l 1596 sudo su 1597 power off 1598 poweroff 1599 sudo poweroff 1600 cd /var/log 1601 ls -la 1602 vim dmesg 1603 tail --help 1604 ls 1605 egrep --help 1606 egrep -R -n "error" ./syslog 1607 vim syslog 1608 egrep -R -n "error" ./lesson_10 ./lesson_4 ./lesson_5 ./lesson_6 ./lesson_7 ./lesson_9 1609 date 1610 grep --help 1611 vim dmesg 1612 dmesg 1613 ls 1614 stat syslog 1615 vim dpkg.log 1616 vim syslog 1617 ls -l 1618 cd Git/ACA-Lesson/ 1619 ls 1620 pwd 1621 ls -l 1622 rm log.txt 1623 ls -l 1624 cd Bash_scrips/ 1625 ls -l 1626 cd vscode/ 1627 ls -l 1628 cd - 1629 cd .. 1630 cd ~ 1631 clear 1632 ls -l 1633 ls -F 1634 ls -Fl 1635 a=myfile 1636 echo $a 1637 echo $a1 1638 echo ${a}1 1639 ls -a 1640 ls -al 1641 vim .profile 1642 ls . .. .git 1643 vim .bashrc 1644 sudo reboot 1645 cd aca 1646 cd $aca 1647 cd %aca 1648 cd $aca 1649 cd ${aca} 1650 cd 1651 ls -la 1652 vim .bashrc 1653 sudo reboot 1654 ls -l 1655 cd $aca 1656 ls -la 1657 vim .bashrc 1658 sudo reboot 1659 cd $aca 1660 cd 1661 ls -l 1662 cd $a 1663 cd $aca 1664 ls -l 1665 cd 1666 ls -la 1667 vim .bashrc 1668 ls -l 1669 cd $ac 1670 cd $aca 1671 ls l 1672 ls -l 1673 ls -f lesson_10 1674 ls -F lesson_10 1675 ls -lF lesson_10 1676 cd 1677 sudo reboot 1678 cd $ac 1679 ls -l 1680 cd $ac 1681 ls -l 1682 cd lesson_10 1683 ls -l 1684 cd~ 1685 cd 1686 arp -n 1687 man arp 1688 arp -na 1689 read man arp 1690 arp -n 1691 man arp 1692 arp -e 1693 arp -en 1694 cd $ac 1695 ls -l 1696 cd lesson_10 1697 ls -l 1698 vim script.sh 1699 cd 1700 sudo apt update 1701 ls -l 1702 cat test.sh 1703 ./test.sh 1704 chmod +x test 1705 chmod +x test.sh 1706 ./test.sh 1707 ls -l 1708 cd Bash_scrips/ 1709 ls -l 1710 cd vscode/ 1711 ls -l 1712 chmod 755 test.sh 1713 ls -l 1714 ./test.sh 1715 chmod 700 test.sh 1716 ./test.sh 1717 bash test.sh 1718 ls -l 1719 touch test.sh 1720 ls -l 1721 chmod +x test.sh 1722 stat test.sh 1723 vim test.sh 1724 ./ 1725 ./test.sh 1726 vim test.sh 1727 ./test.sh 1728 vim test.sh 1729 ./test.sh 1730 bash test.sh 1731 cd $ac 1732 ls -l 1733 cd lesson_10 1734 ls -l 1735 ./script.sh 1736 sudo ./script.sh 1737 / 1738 sudo root 1739 sudo su 1740 ls -la 1741 ls 1742 touch ax.txt 1743 ls -la > ax.txt 1744 ls -l 1745 cat ax.txt 1746 ls -la 1> ax.txt 1747 cat ax.txt 1748 cat 1749 cat > ax.txt 1750 cat ax.txt 1751 cat >> ax.txt 1752 cat ax.txt 1753 mkdir example{1.5} 1754 ls 1755 mkdir example{1..5} 1756 ls 1757 touch test{1.2.3} 1758 ls 1759 rm test{1.2.3} 1760 rm test{1,2,5} 1761 touch test{1,2,5} 1762 ls 1763 touch test{1,2,5}.txt 1764 ls 1765 ,m,mnd,nd, 1766 hello 1767 ls -l 1768 vim test.sh 1769 ls -F 1770 vim test.sh 1771 ./test.sh 1772 vim test.sh 1773 ls -l 1774 ./test.sh 1775 cat test.sh 1776 ./test.sh 1777 cat test.sh 1778 ./test.sh 1779 ./test.sh hello 1780 ./test.sh hoppa 1781 ./test.sh hello 1782 ./test.sh bldux 1783 ./test.shffff 1784 ./test.sh ffff 1785 ./test.sh bldux 1786 ./test.sh bldux1 1787 ./test.sh nbcmbncmbc 1788 ./test.sh hello 1789 ./test.sh bldux 1790 ./test.sh bldux1 1791 ./test.sh bldux12 1792 ./test.sh 11 1793 ./test.sh 20 1794 ./test.sh 201 1795 ./test.sh 20 1796 ls -l 1797 ./test.sh ax.txt 1798 ./test.sh x.txt 1799 ./test.sh d,n,d,nd,n 1800 sudo poweroff 1801 sudo su 1802 ls -l 1803 sudo su 1804 ls -l 1805 ./test.sh 1806 cd $ac 1807 ls -la *.sh 1808 cd 1809 ls ls 1810 ll 1811 ls 1812 cd $ac 1813 ls -l 1814 ls -l *sh 1815 ls -l *.sh 1816 grep *.sh 1817 man grep 1818 grep "*.sh" 1819 grep -i *.sh 1820 grep -F *.sh 1821 grep -R '*.sh' 1822 grep -R *.sh 1823 cd lesson_10 1824 ls -l 1825 grep -i scrip 1826 grep -i 'scrip' 1827 grep -i 'scrip'| ls -l 1828 cd.. 1829 cd .. 1830 grep -R '*.sh' ACA-Lesson/ 1831 grep -R *.sh ACA-Lesson/ 1832 grep *.sh ACA-Lesson/ 1833 grep -rv *.sh ACA-Lesson/ 1834 grep -r *.sh ACA-Lesson/ 1835 grep -v *.sh ACA-Lesson/ 1836 grep -R *.sh ACA-Lesson/ 1837 ls -l 1838 sudo apt get update 1839 sudo apt-get update 1840 ls -l 1841 stat test.sh 1842 man read 1843 read --help 1844 read "hello world" hello 1845 read -p "hello world" hello 1846 touch script1.sh|chmod +x 1847 touch script1.sh|chmod +x scriprt1.sh 1848 touch script1.sh | chmod +x scriprt1.sh 1849 ls -l 1850 chmod +x script1.sh 1851 ls -l 1852 vim script1.sh 1853 ./script1.sh 1854 ./script1.sh 20 1855 vim script1.sh 1856 ./script1.sh 20 1857 ./script1.sh 202 1858 vim script1.sh 1859 ./script1.sh 202 1860 vim script1.sh 1861 ./script1.sh 202 1862 ./script1.sh 2022 1863 ./script1.sh 20 1864 vim script1.sh 1865 vim script1.sh ax.txt 1866 ./script1.sh ax.txt 1867 ./script1.sh axsss.txt 1868 vim script1.sh 1869 ./script1.sh ax,txt 1870 ./script1.sh ax.txt 1871 ./script1.sh data/ 1872 vim script1.sh 1873 ./script1.sh data/ 1874 ./script1.sh ax.txt 1875 touch eee.txt 1876 ./script1.sh eee.txt 1877 ls -l 1878 vim script1.sh 1879 ./script1.sh eee.txt 1880 cd $ac 1881 egrep "*.sh" 1882 grep -p "*.sh" 1883 grep -p "*.sh" lesson_10 1884 grep "*.sh" lesson_10 1885 grep -R "*.sh" lesson_10 1886 man grep 1887 grep -e "*.sh" lesson_10 1888 grep -r "*.sh" lesson_10 1889 grep -r ".sh" lesson_10 1890 grep -r ".sh" 1891 grep -ri ".sh" 1892 grep -i ".sh" 1893 grep -i "*.sh" 1894 grep -v "*.sh" 1895 grep -rf "*.sh" 1896 grep -r "*.sh" 1897 grep -r ".sh" 1898 exit 1899 ip -a 1900 ip a 1901 ls Git/ACA-Lesson/ 1902 ls -la Git/ACA-Lesson/ 1903 ls -l 1904 sudo reboot 1905 ip a 1906 cd /etc/net 1907 cd /etc/netplan/ 1908 ls -l 1909 sudo su 1910 ip -a 1911 ip a 1912 cd /etc/netplan/ 1913 ls -l 1914 sudo netplan try 1915 vim 01-installer-config.yaml 1916 sudo su 1917 ls -l 1918 sudo apt-get update 1919 ifconfig 1920 ip a 1921 ip r 1922 ping 192.168.213.1 1923 sudo su 1924 ip a 1925 ping 8.8.8.8 1926 ping yahoo.com 1927 apt-get update 1928 sudo su apt-get update 1929 sudo apt-get update 1930 ls l 1931 ls -l 1932 sudo su 1933 ip a 1934 ll 1935 cd Git/ 1936 ls 1937 cd Git/ 1938 ls -l 1939 cd test_aca/ 1940 ls -l 1941 cd .. 1942 git add test_aca/ 1943 git status 1944 sudo su 1945 ll 1946 ls -l 1947 ll 1948 ll 1949 ls -l 1950 clear 1951 ls -l 1952 cd Git/ 1953 ls | grep .sh 1954 ls | grep *.sh 1955 ls | grep - e *.sh 1956 ls -l 1957 cd ACA-Lesson/ 1958 ls -l | grep -e *.sh 1959 ls -l | grep -e 1960 man grep 1961 cd lesson_10 1962 ls -l 1963 ls | grep .sh 1964 cd .. 1965 sudo su 1966 ls -l 1967 cd ba 1968 ls L 1969 ls la 1970 ls -L 1971 cd backup/ 1972 ls -l 1973 cat testt.doc 1974 rm testt.doc 1975 ls -l 1976 ls -l 1977 df 1978 df -a 1979 df -la 1980 df -h 1981 df -H 1982 fdisk 1983 fdsk 1984 fdisk 1985 fdisk /dev/sda 1986 sudo su 1987 sudo -i 1988 ls -l 1989 cd Git/ 1990 git status 1991 cd ACA-Lesson/ 1992 git status 1993 git chechout . 1994 git checkout . 1995 git staus 1996 git status 1997 git log 1998 git switch -b Bug1 1999 git checkout -b Bug1 2000 ls -l 2001 git status 2002 git branch 2003 git branch -m Bug 2004 git branch 2005 git switch main' 2006 git switch main 2007 git main 2008 git branch 2009 git log --online 2010 git log -online 2011 git log 2012 git log --online 2013 git log --oneline 2014 history 2015 echo `history` >> history.txt
+
+
+
+
+
+total 56
+drwxrwxr-x 9 yegharr yegharr  4096 Nov 12 12:54 ./
+drwxrwxr-x 4 yegharr yegharr  4096 Oct 28 18:48 ../
+drwxrwxr-x 8 yegharr yegharr  4096 Nov 12 12:27 .git/
+-rw-rw-r-- 1 yegharr yegharr 16484 Nov 12 12:59 history.txt
+drwxrwxr-x 2 yegharr yegharr  4096 Oct 27 14:37 lesson_10/
+drwxrwxr-x 4 yegharr yegharr  4096 Oct  4 13:53 lesson_4/
+drwxrwxr-x 2 yegharr yegharr  4096 Oct 10 15:57 lesson_5/
+drwxrwxr-x 2 yegharr yegharr  4096 Nov 12 11:15 lesson_6/
+drwxrwxr-x 2 yegharr yegharr  4096 Oct 11 19:52 lesson_7/
+drwxrwxr-x 2 yegharr yegharr  4096 Oct 24 19:25 lesson_9/ &  1025  mkdir logfolder
+ 1026  ls -l
+ 1027  cd Git/ACA-Lesson/lesson_10
+ 1028  ls -l
+ 1029  vim script.sh 
+ 1030  ./script.sh 
+ 1031  ls -l
+ 1032  mkdir Direct
+ 1033  ls -l
+ 1034  vim script.sh 
+ 1035  ./script.sh 
+ 1036  cd Direct/
+ 1037  pwd
+ 1038  cd ..
+ 1039  vim script.sh 
+ 1040  ./script.sh 
+ 1041  ls Direct
+ 1042  ls -l
+ 1043  vim script.sh 
+ 1044  ./script.sh 
+ 1045  ls -l Direct
+ 1046  vim 19:35.txt
+ 1047  ls -l
+ 1048  cd Direct/
+ 1049  ls -l
+ 1050  cat 19:35.txt 
+ 1051  cd ..
+ 1052  ls -l
+ 1053  rm  *.txt
+ 1054  ls -l
+ 1055  vim script.sh 
+ 1056  ./script.sh 
+ 1057  cd Direct/
+ 1058  ls -l
+ 1059  vim 19:41.txt
+ 1060  cd ..
+ 1061  ls -l
+ 1062  vim script.sh 
+ 1063  ls -l
+ 1064  cd Direct/
+ 1065  ls -l
+ 1066  vim 19:41.txt
+ 1067  ls
+ 1068  cd ~
+ 1069  $ sudo systemctl start cron
+ 1070  sudo systemctl start cron
+ 1071  sudo systemctl status cron
+ 1072  crontab –e
+ 1073  sudo reboot
+ 1074  ls -l
+ 1075  rm -rf logfolder/
+ 1076  ls -l
+ 1077  sudo systemctl start cron
+ 1078  crontab -e
+ 1079  cd Git/ACA-Lesson/lesson_10/
+ 1080  ls -l
+ 1081  pwd
+ 1082  cd~
+ 1083  cd ~
+ 1084  crontab -e
+ 1085  cd /home/yegharr/Git/ACA-Lesson/lesson_10
+ 1086  ls -l
+ 1087  cd Direct/
+ 1088  ls -l
+ 1089  pwd
+ 1090  cd..
+ 1091  cd  ..
+ 1092  ls -l
+ 1093  pwd
+ 1094  ./script.sh 
+ 1095  ls -l
+ 1096  ls Direct/
+ 1097  cd Direct/
+ 1098  ls -l
+ 1099  ls -t
+ 1100  ls -lt
+ 1101  ls -lt | tail -20
+ 1102  ls |wc -l
+ 1103  ls -t | tail -24
+ 1104  ls -l
+ 1105  wc -l
+ 1106  ls | wc -l
+ 1107  cd ..
+ 1108  vim script.sh 
+ 1109  cd Direct/
+ 1110  ls -lt
+ 1111  cd ..
+ 1112  ./script.sh 
+ 1113  vim script.sh 
+ 1114  ./script.sh 
+ 1115  ls -l
+ 1116  cd Direct/
+ 1117  ls -l
+ 1118  cd ..
+ 1119  vim script.sh 
+ 1120  ./script.sh 
+ 1121  vim script.sh 
+ 1122  ./script.sh 
+ 1123  vim script.sh 
+ 1124  ./script.sh 
+ 1125  vim script.sh 
+ 1126  ./script.sh 
+ 1127  vim script.sh 
+ 1128  ./script.sh 
+ 1129  vim script.sh 
+ 1130  ./script.sh 
+ 1131  vim script.sh 
+ 1132  vim script.sh 
+ 1133  ls -l
+ 1134  Direct/
+ 1135  ls Direct/
+ 1136  ls -l
+ 1137  touch script.sh
+ 1138  vim script.sh 
+ 1139  chod +x script.sh 
+ 1140  chmod +x script.sh 
+ 1141  ls -l
+ 1142  ./script.sh 
+ 1143  vim script.sh 
+ 1144  ./script.sh 
+ 1145  cd Direct/
+ 1146  ls -l
+ 1147  cd ..
+ 1148  vim script.sh 
+ 1149  ./script.sh 
+ 1150  cd Direct/
+ 1151  ls -l | wc -l
+ 1152  vim script.sh 
+ 1153  cd -l
+ 1154  cd ..
+ 1155  ls -l
+ 1156  vim script.sh 
+ 1157  ./script.sh 
+ 1158  cd Direct/
+ 1159  ls -l
+ 1160  ls -l |wc -l
+ 1161  ls -l
+ 1162  ./script.sh 
+ 1163  ls -l
+ 1164  ls -l |wc -l
+ 1165  ls -l
+ 1166  ls -l |wc -l
+ 1167  ls -l
+ 1168  cd Git/ACA-Lesson/lesson_10/
+ 1169  ls -l
+ 1170  ./script.sh 
+ 1171  vim ./script.sh 
+ 1172  ./script.sh 
+ 1173  ls -l
+ 1174  cd Direct/
+ 1175  ls -l
+ 1176  ls -l|wc -l
+ 1177  ls -l
+ 1178  ls -l|wc -l
+ 1179  sudo poweroff
+ 1180  crontab -e
+ 1181  sudo tail -f /var/log/syslog
+ 1182  crontab -e
+ 1183  sudo tail -f /var/log/syslog
+ 1184  ls -t
+ 1185  crontab -e
+ 1186  cd Git/ACA-Lesson/lesson_10
+ 1187  ls -l
+ 1188  vim script.sh 
+ 1189  ./script.sh 
+ 1190  vim script.sh 
+ 1191  ./script.sh 
+ 1192  vim script.sh 
+ 1193  ./script.sh 
+ 1194  vim script.sh 
+ 1195  ./script.sh 
+ 1196  vim script.sh 
+ 1197  ./script.sh 
+ 1198  vim script.sh 
+ 1199  ./script.sh 
+ 1200  ls -l
+ 1201  rm 10
+ 1202  rm 111.txt
+ 1203  rm test.doc
+ 1204  ll
+ 1205  ls -l
+ 1206  rm -rf  test.doc 
+ 1207  ls -l
+ 1208  cat script1.sh 
+ 1209  cd Git/
+ 1210  ls -l
+ 1211  cd ACA-Lesson/
+ 1212  cd lesson_10
+ 1213  ls -l
+ 1214  cd Direct/
+ 1215  ls -l
+ 1216  rm *.txt
+ 1217  ls -l
+ 1218  ls /home/yegharr/Git/ACA-Lesson/lesson_10/Direct/ | wc -l
+ 1219  ls -l
+ 1220  ls -dt
+ 1221  ls -l
+ 1222  tail -n
+ 1223  man tail
+ 1224  man tail -n
+ 1225  tail -n
+ 1226  tail -n10
+ 1227  ls -l | tail -n
+ 1228  cd ..
+ 1229  ls -l 
+ 1230  cd Direct/
+ 1231  ls -l
+ 1232  tail -n
+ 1233  tail -10
+ 1234  tail -3
+ 1235  tail -n 10
+ 1236  ls -l
+ 1237  ls -l | tail -n 10
+ 1238  ls -l | head -n 5
+ 1239  ls -l | head -n 10
+ 1240  ls -l | head +n 10
+ 1241  ls -l | head -n 10
+ 1242  cd ..
+ 1243  ls -l
+ 1244  head -n Direct/
+ 1245  head -n 10  Direct/
+ 1246  ls -l | head -n 10
+ 1247  cd Direct/
+ 1248  ls -l | head -n 10
+ 1249  ls -dt | tail -n 10
+ 1250  ls -dt | tail -n 5
+ 1251  ls -t | tail -n 5
+ 1252  ls -t | tail -n 7
+ 1253  ls -l
+ 1254  ls -t | tail -n 7
+ 1255  ls -t 
+ 1256  wc -l
+ 1257  ls -t | wc -l
+ 1258  ls -t | tail -n 10
+ 1259  ls -t 
+ 1260  ls -lt
+ 1261  ls -t | wc -l
+ 1262  ls -lt
+ 1263  ls -t | wc -l
+ 1264  ls -lt
+ 1265  ls -l
+ 1266  ls -t | wc -l
+ 1267  ls -lt
+ 1268  ls -t | wc -l
+ 1269  ls -lt
+ 1270  ls -t | wc -l
+ 1271  ls -lt
+ 1272  ls -t | wc -l
+ 1273  ls -lt
+ 1274  ls -t | wc -l
+ 1275  ls -lt
+ 1276  ls -t | wc -l
+ 1277  ls -lt
+ 1278  ls -t | wc -l
+ 1279  ls -lt
+ 1280  ls -t | wc -l
+ 1281  ls -lt
+ 1282  ls -t | wc -l
+ 1283  ls -lt
+ 1284  ls -t | wc -l
+ 1285  ls -lt
+ 1286  ls -t | wc -l
+ 1287  ls -lt
+ 1288  cd Git/
+ 1289  cd ACA-Lesson/lesson_10
+ 1290  ls -l
+ 1291  vim script.sh 
+ 1292  cd Direct/
+ 1293  ls -lt
+ 1294  cd ..
+ 1295  vim script.sh 
+ 1296  ./script.sh 
+ 1297  vim script.sh 
+ 1298  ./script.sh 
+ 1299  vim script.sh 
+ 1300  cd Git/ACA-Lesson/lesson_10
+ 1301  ls -l
+ 1302  cd Direct/
+ 1303  ls -l
+ 1304  rm -rf *.log
+ 1305  ls -l
+ 1306  pwd
+ 1307  ls -l
+ 1308  rm *.log
+ 1309  ls -l
+ 1310  ls -lt
+ 1311  rm -rf *txt;log
+ 1312  rm -rf *.txt;.log
+ 1313  rm -rf *.txt
+ 1314  rm -rf *.log
+ 1315  ls -l
+ 1316  ls -lt
+ 1317  cat script.sh
+ 1318  cat 15:23 10.2022.log
+ 1319  ls -lt
+ 1320  ls -l
+ 1321  rm 15:38 10.2022.log
+ 1322  rm -rf 15:38 10.2022.log
+ 1323  ls -l
+ 1324  rm -rf *.txt
+ 1325  rm -rf *.log
+ 1326  ls -l
+ 1327  ls 
+ 1328  ls -l
+ 1329  ls 
+ 1330  ls -l
+ 1331  rm -rf *.log
+ 1332  ls -l
+ 1333  vim 15:46.log
+ 1334  ls -lt
+ 1335  ls -l
+ 1336  ls -lt
+ 1337  ls -lt |wc -l
+ 1338  ls -lt 
+ 1339  ls
+ 1340  wc -l
+ 1341  ls -lt |wc -l
+ 1342  ls -l
+ 1343  ls -lah
+ 1344  rm -rf .txt
+ 1345  rm -rf .log
+ 1346  ls -lah
+ 1347  ls -l
+ 1348  ls -lt |wc -l
+ 1349  ls -lt 
+ 1350  ls -lt |wc -l
+ 1351  ls -lt
+ 1352  ls -lt |wc -l
+ 1353  ls -l
+ 1354  ls -lt |wc -l
+ 1355  ls -lt
+ 1356  ls -lt |wc -l
+ 1357  ls -lt 
+ 1358  ls -lt |wc -l
+ 1359  ls -lt
+ 1360  ls -lt |wc -l
+ 1361  ls -lt
+ 1362  ls -lt |wc -l
+ 1363  ls -lt
+ 1364  ls -l
+ 1365  ls -lt |wc -l
+ 1366  sudo su
+ 1367  cd /home/yegharr/Git/ACA-Lesson/lesson_10
+ 1368  ls -l
+ 1369  ./script.sh 
+ 1370  crontab -e
+ 1371  ./script.sh 
+ 1372  vim script.sh 
+ 1373  ./script.sh 
+ 1374  vim script.sh 
+ 1375  ./script.sh 
+ 1376  vim script.sh 
+ 1377  ./script.sh 
+ 1378  vim script.sh 
+ 1379  ./script.sh 
+ 1380  vim script.sh 
+ 1381  ./script.sh 
+ 1382  vim script.sh 
+ 1383  ./script.sh 
+ 1384  vim script.sh 
+ 1385  ./script.sh 
+ 1386  vim script.sh 
+ 1387  ./script.sh 
+ 1388  vim script.sh 
+ 1389  ./script.sh 
+ 1390  vim script.sh 
+ 1391  ./script.sh 
+ 1392  vim script.sh 
+ 1393  ./script.sh 
+ 1394  vim script.sh 
+ 1395  ./script.sh 
+ 1396  vim script.sh 
+ 1397  ./script.sh 
+ 1398  vim script.sh 
+ 1399  ./script.sh 
+ 1400  vim script.sh 
+ 1401  ./script.sh 
+ 1402  vim script.sh 
+ 1403  ./script.sh 
+ 1404  cat script.sh 
+ 1405  vim script.sh 
+ 1406  ./script.sh 
+ 1407  vim script.sh 
+ 1408  ./script.sh 
+ 1409  vim script.sh 
+ 1410  ./script.sh 
+ 1411  vim script.sh 
+ 1412  ./script.sh 
+ 1413  vim script.sh 
+ 1414  ./script.sh 
+ 1415  crontab -e
+ 1416  vim script.sh 
+ 1417  sudo su 
+ 1418  sudo crontab -e
+ 1419  cd Git/ACA-Lesson/lesson_10
+ 1420  ls -l
+ 1421  vim script.sh 
+ 1422  ./script.sh 
+ 1423  bash script.sh 
+ 1424  ls -l
+ 1425  sudo su
+ 1426  sudo su
+ 1427  sudo su
+ 1428  ls -l
+ 1429  mkdir Bash_scrips 
+ 1430  ls -l
+ 1431  cd  Bash_scrips/
+ 1432  ls -l
+ 1433  pwd
+ 1434  clear
+ 1435  ls -l
+ 1436  cd ~
+ 1437  ls -l
+ 1438  cd Bash_scrips/
+ 1439  ls -l
+ 1440  ls -la
+ 1441  ls
+ 1442  la
+ 1443  ls
+ 1444  ls -l
+ 1445  cd
+ 1446  ls -l
+ 1447  pwd
+ 1448  mkdir Bash_scrips
+ 1449  ls -lt
+ 1450  chmod +x Bash_scrips/
+ 1451  stat Bash_scrips/
+ 1452  ls -l
+ 1453  cat script1.sh 
+ 1454  mv script1.sh  Bash_scrips/
+ 1455  ls -l
+ 1456  cd /var/log
+ 1457  ls -l
+ 1458  cd 
+ 1459  cd /var/log
+ 1460  ls -l
+ 1461  ls -l 
+ 1462  ls Bash_scrips/
+ 1463  sudo su 
+ 1464  cd~
+ 1465  cd ~
+ 1466  crontab 
+ 1467  crontab -e
+ 1468  cd /home/yegharr/Git/ACA-Lesson/lesson_10
+ 1469  ls -l
+ 1470  cd 
+ 1471  sudo su
+ 1472  cd
+ 1473  ls -l
+ 1474  vim tx.log 
+ 1475  history
+ 1476  clear
+ 1477  ls -l
+ 1478  cd Bash_scrips/
+ 1479  ls -l
+ 1480  ls -lt
+ 1481  ls -la
+ 1482  cd .vscode
+ 1483  ls -l
+ 1484  cd 
+ 1485  ls -l
+ 1486  * *.txt
+ 1487  rm *.txt
+ 1488  y
+ 1489  rm - rf*.txt
+ 1490  rm - rf *.txt
+ 1491  rm - rv *.txt
+ 1492  ls -l
+ 1493  cd Bash_scrips/
+ 1494  ls -l
+ 1495  ls -la
+ 1496  mv .vscode vscode 
+ 1497  ls -l
+ 1498  cd vscode/
+ 1499  ls -l
+ 1500  cd 
+ 1501  date 
+ 1502  cd  Git/ACA-Lesson/lesson_10
+ 1503  ls -l
+ 1504  pwd
+ 1505  ls -l
+ 1506  cat script1.sh 
+ 1507  rm script.sh 
+ 1508  ls -l
+ 1509  mv script1.sh script.sh
+ 1510  ls -l
+ 1511  cat script.sh 
+ 1512  touch Descrition
+ 1513  touch Descrition.txt
+ 1514  rm  Descrition
+ 1515  ls -l
+ 1516  cd Direct/
+ 1517  ls -l
+ 1518  sudo crontab -e
+ 1519  ls -l
+ 1520  rm *.log
+ 1521  rm -rf *.log
+ 1522  ls -l
+ 1523  sudo crontab -e
+ 1524  cd ..
+ 1525  ls -l
+ 1526  sudo crontab -e
+ 1527  bash script.sh 
+ 1528  sudo bash script.sh 
+ 1529  chmod 700 script.sh 
+ 1530  sudo chmod 700 script.sh 
+ 1531  stat script.sh 
+ 1532  sudo chmod +x script.sh 
+ 1533  stat script.sh 
+ 1534  sudo chmod 755 script.sh 
+ 1535  stat script.sh 
+ 1536  ls -l
+ 1537  rm -rf  Direct 
+ 1538  ls -l
+ 1539  vim Descrition.txt 
+ 1540  ls -l
+ 1541  cat Descrition.txt 
+ 1542  cd ..
+ 1543  git add
+ 1544  git add lesson_10
+ 1545  git status 
+ 1546  git commit -m "task_10"
+ 1547  git push main
+ 1548  git push origin main
+ 1549  ls -l
+ 1550  cd 
+ 1551  ls /var/log
+ 1552  ls -lta
+ 1553  ls -lt
+ 1554  cd /var/log/
+ 1555  ls -lt
+ 1556  vim syslog
+ 1557  cd 
+ 1558  grep "error"/var/log/ >> logs.txt
+ 1559  ls -l
+ 1560  cat logs.txt 
+ 1561  grep 'error'/var/log/ >> logs.txt
+ 1562  ls -l
+ 1563  grep -i 'error'/var/log/ >> logs.txt
+ 1564  cd /var/log/
+ 1565  ls -l
+ 1566  cd 
+ 1567  ls -l
+ 1568  grep -i 'error'/var/log/syslog  >> logs.txt
+ 1569  sudo su 
+ 1570  locate sftp.json
+ 1571  find / -name "test.sh"
+ 1572  ls
+ 1573  cd Bash_scrips/
+ 1574  ls
+ 1575  apt install mlocate
+ 1576  sudo apt install mlocate
+ 1577  updatedb
+ 1578  sudo su
+ 1579  ls -l
+ 1580  cd Git/
+ 1581  .
+ 1582  cp ../tx.log  .
+ 1583  ls -l
+ 1584  mv -i ../tx.log  .
+ 1585  ls -l
+ 1586  .
+ 1587  cd -
+ 1588  cd Git/
+ 1589  cd .
+ 1590  cd -
+ 1591  pwd
+ 1592  sudo apt get update 
+ 1593  sudo apt update 
+ 1594  sudo apt upgrade 
+ 1595  ls -l
+ 1596  sudo su 
+ 1597  power off
+ 1598  poweroff
+ 1599  sudo poweroff
+ 1600  cd  /var/log 
+ 1601  ls -la
+ 1602  vim dmesg
+ 1603  tail --help
+ 1604  ls
+ 1605  egrep --help
+ 1606  egrep -R -n "error" ./syslog
+ 1607  vim syslog
+ 1608  egrep -R -n "error" ./*
+ 1609  date
+ 1610  grep --help
+ 1611  vim dmesg
+ 1612  dmesg
+ 1613  ls
+ 1614  stat syslog
+ 1615  vim dpkg.log
+ 1616  vim syslog
+ 1617  ls -l
+ 1618  cd Git/ACA-Lesson/
+ 1619  ls 
+ 1620  pwd
+ 1621  ls -l
+ 1622  rm log.txt 
+ 1623  ls -l
+ 1624  cd Bash_scrips/
+ 1625  ls -l
+ 1626  cd vscode/
+ 1627  ls -l
+ 1628  cd -
+ 1629  cd ..
+ 1630  cd ~
+ 1631  clear 
+ 1632  ls -l
+ 1633  ls -F
+ 1634  ls -Fl
+ 1635  a=myfile 
+ 1636  echo $a
+ 1637  echo $a1
+ 1638  echo ${a}1
+ 1639  ls -a 
+ 1640  ls -al
+ 1641  vim .profile 
+ 1642  ls .*
+ 1643  vim .bashrc
+ 1644  sudo reboot
+ 1645  cd aca
+ 1646  cd $aca
+ 1647  cd %aca
+ 1648  cd $aca
+ 1649  cd ${aca}
+ 1650  cd
+ 1651  ls -la
+ 1652  vim .bashrc 
+ 1653  sudo reboot
+ 1654  ls -l
+ 1655  cd $aca
+ 1656  ls -la
+ 1657  vim .bashrc
+ 1658  sudo reboot
+ 1659  cd $aca
+ 1660  cd 
+ 1661  ls -l
+ 1662  cd $a
+ 1663  cd $aca
+ 1664  ls -l
+ 1665  cd 
+ 1666  ls -la
+ 1667  vim .bashrc
+ 1668  ls -l
+ 1669  cd $ac
+ 1670  cd $aca
+ 1671  ls l 
+ 1672  ls -l
+ 1673  ls -f lesson_10 
+ 1674  ls -F lesson_10 
+ 1675  ls -lF lesson_10 
+ 1676  cd 
+ 1677  sudo reboot
+ 1678  cd $ac
+ 1679  ls -l
+ 1680  cd $ac
+ 1681  ls -l
+ 1682  cd lesson_10
+ 1683  ls -l
+ 1684  cd~
+ 1685  cd
+ 1686  arp -n
+ 1687  man arp
+ 1688  arp -na
+ 1689  read man arp
+ 1690  arp -n
+ 1691  man arp
+ 1692  arp -e
+ 1693  arp -en
+ 1694  cd $ac
+ 1695  ls -l
+ 1696  cd lesson_10
+ 1697  ls -l
+ 1698  vim script.sh 
+ 1699  cd 
+ 1700  sudo apt update
+ 1701  ls -l
+ 1702  cat test.sh
+ 1703  ./test.sh 
+ 1704  chmod +x test
+ 1705  chmod +x test.sh
+ 1706  ./test.sh 
+ 1707  ls -l
+ 1708  cd Bash_scrips/
+ 1709  ls -l
+ 1710  cd vscode/
+ 1711  ls -l
+ 1712  chmod 755 test.sh 
+ 1713  ls -l
+ 1714  ./test.sh 
+ 1715  chmod 700 test.sh 
+ 1716  ./test.sh 
+ 1717  bash test.sh 
+ 1718  ls -l
+ 1719  touch test.sh
+ 1720  ls -l
+ 1721  chmod +x test.sh
+ 1722  stat test.sh 
+ 1723  vim test.sh
+ 1724  ./
+ 1725  ./test.sh 
+ 1726  vim test.sh
+ 1727  ./test.sh 
+ 1728  vim test.sh
+ 1729  ./test.sh 
+ 1730  bash test.sh
+ 1731  cd $ac
+ 1732  ls -l
+ 1733  cd lesson_10
+ 1734  ls -l
+ 1735  ./script.sh 
+ 1736  sudo ./script.sh 
+ 1737  /
+ 1738  sudo root
+ 1739  sudo su
+ 1740  ls -la
+ 1741  ls 
+ 1742  touch ax.txt
+ 1743  ls -la > ax.txt
+ 1744  ls -l
+ 1745  cat ax.txt 
+ 1746  ls -la 1> ax.txt
+ 1747  cat ax.txt 
+ 1748  cat 
+ 1749  cat > ax.txt 
+ 1750  cat ax.txt 
+ 1751  cat >> ax.txt 
+ 1752  cat ax.txt 
+ 1753  mkdir example{1.5}
+ 1754  ls 
+ 1755  mkdir example{1..5}
+ 1756  ls 
+ 1757  touch test{1.2.3}
+ 1758  ls 
+ 1759  rm test{1.2.3}
+ 1760  rm test{1,2,5}
+ 1761  touch test{1,2,5}
+ 1762  ls 
+ 1763  touch test{1,2,5}.txt
+ 1764  ls 
+ 1765  ,m,mnd,nd,
+ 1766  hello
+ 1767  ls -l
+ 1768  vim test.sh 
+ 1769  ls -F
+ 1770  vim test.sh 
+ 1771  ./test.sh 
+ 1772  vim test.sh 
+ 1773  ls -l
+ 1774  ./test.sh 
+ 1775  cat test.sh 
+ 1776  ./test.sh 
+ 1777  cat test.sh 
+ 1778  ./test.sh 
+ 1779  ./test.sh hello
+ 1780  ./test.sh hoppa
+ 1781  ./test.sh hello
+ 1782  ./test.sh bldux
+ 1783  ./test.shffff
+ 1784  ./test.sh ffff
+ 1785  ./test.sh bldux
+ 1786  ./test.sh bldux1
+ 1787  ./test.sh nbcmbncmbc
+ 1788  ./test.sh hello
+ 1789  ./test.sh bldux
+ 1790  ./test.sh bldux1
+ 1791  ./test.sh bldux12
+ 1792  ./test.sh 11
+ 1793  ./test.sh 20
+ 1794  ./test.sh 201
+ 1795  ./test.sh 20
+ 1796  ls -l
+ 1797  ./test.sh ax.txt
+ 1798  ./test.sh x.txt
+ 1799  ./test.sh d,n,d,nd,n
+ 1800  sudo poweroff
+ 1801  sudo su
+ 1802  ls -l
+ 1803  sudo su
+ 1804  ls -l
+ 1805  ./test.sh 
+ 1806  cd $ac
+ 1807  ls -la *.sh
+ 1808  cd
+ 1809  ls ls
+ 1810  ll
+ 1811  ls 
+ 1812  cd $ac
+ 1813  ls -l
+ 1814  ls -l *sh
+ 1815  ls -l *.sh
+ 1816  grep *.sh
+ 1817  man grep 
+ 1818  grep "*.sh"
+ 1819  grep -i *.sh
+ 1820  grep -F *.sh
+ 1821  grep -R  '*.sh'
+ 1822  grep -R  *.sh
+ 1823  cd lesson_10
+ 1824  ls -l
+ 1825  grep -i scrip
+ 1826  grep -i 'scrip'
+ 1827  grep -i 'scrip'| ls -l
+ 1828  cd..
+ 1829  cd ..
+ 1830  grep -R '*.sh' ACA-Lesson/
+ 1831  grep -R *.sh  ACA-Lesson/
+ 1832  grep  *.sh  ACA-Lesson/
+ 1833  grep  -rv *.sh  ACA-Lesson/
+ 1834  grep  -r *.sh  ACA-Lesson/
+ 1835  grep  -v *.sh  ACA-Lesson/
+ 1836  grep  -R *.sh  ACA-Lesson/
+ 1837  ls -l
+ 1838  sudo apt get update 
+ 1839  sudo apt-get update 
+ 1840  ls -l
+ 1841  stat test.sh 
+ 1842  man read 
+ 1843  read --help
+ 1844  read "hello world" hello
+ 1845  read -p "hello world" hello
+ 1846  touch script1.sh|chmod +x 
+ 1847  touch script1.sh|chmod +x scriprt1.sh
+ 1848  touch script1.sh | chmod +x scriprt1.sh
+ 1849  ls -l
+ 1850  chmod +x script1.sh 
+ 1851  ls -l
+ 1852  vim script1.sh 
+ 1853  ./script1.sh 
+ 1854  ./script1.sh 20
+ 1855  vim script1.sh 
+ 1856  ./script1.sh 20
+ 1857  ./script1.sh 202
+ 1858  vim script1.sh 
+ 1859  ./script1.sh 202
+ 1860  vim script1.sh 
+ 1861  ./script1.sh 202
+ 1862  ./script1.sh 2022
+ 1863  ./script1.sh 20
+ 1864  vim script1.sh 
+ 1865  vim script1.sh ax.txt
+ 1866  ./script1.sh ax.txt
+ 1867  ./script1.sh axsss.txt
+ 1868  vim script1.sh 
+ 1869  ./script1.sh ax,txt
+ 1870  ./script1.sh ax.txt 
+ 1871  ./script1.sh data/
+ 1872  vim script1.sh 
+ 1873  ./script1.sh data/
+ 1874  ./script1.sh ax.txt 
+ 1875  touch eee.txt
+ 1876  ./script1.sh eee.txt
+ 1877  ls -l
+ 1878  vim script1.sh 
+ 1879  ./script1.sh eee.txt
+ 1880  cd $ac
+ 1881  egrep "*.sh" 
+ 1882  grep -p "*.sh" 
+ 1883  grep -p "*.sh" lesson_10
+ 1884  grep  "*.sh" lesson_10
+ 1885  grep -R "*.sh" lesson_10
+ 1886  man grep
+ 1887  grep -e "*.sh" lesson_10
+ 1888  grep -r "*.sh" lesson_10
+ 1889  grep -r ".sh" lesson_10
+ 1890  grep -r ".sh"
+ 1891  grep -ri ".sh"
+ 1892  grep -i ".sh"
+ 1893  grep -i "*.sh"
+ 1894  grep -v "*.sh"
+ 1895  grep -rf "*.sh"
+ 1896  grep -r "*.sh"
+ 1897  grep -r ".sh"
+ 1898  exit
+ 1899  ip -a
+ 1900  ip a
+ 1901  ls Git/ACA-Lesson/
+ 1902  ls -la Git/ACA-Lesson/
+ 1903  ls -l
+ 1904  sudo reboot
+ 1905  ip a
+ 1906  cd  /etc/net
+ 1907  cd  /etc/netplan/
+ 1908  ls -l
+ 1909  sudo su
+ 1910  ip -a
+ 1911  ip a
+ 1912  cd /etc/netplan/
+ 1913  ls -l
+ 1914  sudo netplan try
+ 1915  vim 01-installer-config.yaml 
+ 1916  sudo su
+ 1917  ls -l
+ 1918  sudo apt-get update 
+ 1919  ifconfig
+ 1920  ip a
+ 1921  ip r
+ 1922  ping 192.168.213.1
+ 1923  sudo su
+ 1924  ip a
+ 1925  ping 8.8.8.8
+ 1926  ping yahoo.com
+ 1927  apt-get update 
+ 1928  sudo su apt-get update 
+ 1929  sudo  apt-get update 
+ 1930  ls l
+ 1931  ls -l
+ 1932  sudo su
+ 1933  ip a
+ 1934  ll
+ 1935  cd Git/
+ 1936  ls
+ 1937  cd Git/
+ 1938  ls -l
+ 1939  cd test_aca/
+ 1940  ls -l
+ 1941  cd ..
+ 1942  git add test_aca/
+ 1943  git status
+ 1944  sudo su
+ 1945  ll
+ 1946  ls -l
+ 1947  ll
+ 1948  ll
+ 1949  ls -l
+ 1950  clear
+ 1951  ls -l
+ 1952  cd Git/
+ 1953  ls | grep .sh
+ 1954  ls | grep  *.sh
+ 1955  ls | grep - e  *.sh
+ 1956  ls -l
+ 1957  cd ACA-Lesson/
+ 1958  ls -l | grep -e *.sh
+ 1959  ls -l | grep -e 
+ 1960  man grep
+ 1961  cd lesson_10
+ 1962  ls -l
+ 1963  ls | grep .sh
+ 1964  cd ..
+ 1965  sudo su 
+ 1966  ls -l
+ 1967  cd ba
+ 1968  ls L
+ 1969  ls la 
+ 1970  ls -L
+ 1971  cd backup/
+ 1972  ls -l
+ 1973  cat testt.doc 
+ 1974  rm testt.doc 
+ 1975  ls -l
+ 1976  ls -l 
+ 1977  df
+ 1978  df -a
+ 1979  df -la
+ 1980  df -h
+ 1981  df -H 
+ 1982  fdisk
+ 1983  fdsk 
+ 1984  fdisk 
+ 1985  fdisk /dev/sda
+ 1986  sudo su
+ 1987  sudo -i
+ 1988  ls -l
+ 1989  cd Git/
+ 1990  git status 
+ 1991  cd ACA-Lesson/
+ 1992  git status 
+ 1993  git chechout .
+ 1994  git checkout .
+ 1995  git staus
+ 1996  git status 
+ 1997  git log 
+ 1998  git switch -b Bug1
+ 1999  git checkout  -b Bug1
+ 2000  ls -l
+ 2001  git status 
+ 2002  git branch 
+ 2003  git branch -m Bug
+ 2004  git branch 
+ 2005  git switch main'
+ 2006  git switch main
+ 2007  git main
+ 2008  git branch 
+ 2009  git log --online 
+ 2010  git log -online 
+ 2011  git log 
+ 2012  git log  --online
+ 2013  git log  --oneline
+ 2014  history
+ 2015  echo `history` >> history.txt
+ 2016  ls -l
+ 2017  cat history.txt 
+ 2018  vim history.txt 
+ 2019  echo `ls -l history` >> history.txt
+ 2020  cat history.txt 
+ 2021  echo `ls -ll history` >> history.txt
+ 2022  echo `ll history` >> history.txt
+ 2023  echo `ll $( history)` >> history.txt
+ 2024  echo "$(ll) & $(history)" >> history.txt
