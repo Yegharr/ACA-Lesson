@@ -1,12 +1,15 @@
-# create a directory to work in
-mkdir example
-cd example
 
-# create an example file
-touch somefile.txt
 
+# create a custom image for ubuntu:20.04
+
+
+#Pull base image.
 FROM ubuntu:20.04
-COPY somefile.txt ./
-RUN  apt-get update 
-RUN apt-get install  -y curl nginix vim mc 
-CMD  bash
+
+# Install.
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get install vim mc nginx curl -y
+
+
+# Define default command.
+CMD ["bash"]

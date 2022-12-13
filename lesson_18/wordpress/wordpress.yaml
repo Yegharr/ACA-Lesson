@@ -1,0 +1,29 @@
+version: "3.3"
+services:
+  wordpress: 
+    image: wordpress
+    ports: 
+      - "8089:80"
+    depends_on:
+      - mysql
+    environment:  
+      WORDPRESS_DB_HOST: mysql
+      WORDPRESS_DB_USER: root
+      WORDPRESS_DB_PASSWORD: "root1"
+      WORDPRESS_DB_NAME: wordpress
+    networks:
+      mysql:
+        ipv4_address: "172.30.0.10"  
+  mysql:
+    image: mysql
+    environment: 
+      MYSQL_DATABASE: wordpress
+      MYSQL_ROOT_PASSWORD: "root1"
+    volumes:
+      - ./mysql:/var/lib/mysql
+networks:
+  mysql:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.30.0.0/24"         

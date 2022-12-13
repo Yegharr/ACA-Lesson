@@ -1,0 +1,30 @@
+version: "3.3"
+services:
+  mongo: 
+    image: mongo
+    restart: always 
+    environment:  
+      MONGO_INITDB_ROOT_USERNAME: yegharr
+      MONGO_INITDB_ROOT_PASSWORD: test
+    networks:
+      Net2:
+        ipv4_address: "172.29.0.20"  
+  mongo-express:
+    image: mongo-express
+    restart: always
+    ports:
+      - 8087:8081
+    environment:
+      ME_CONFIG_MONGODB_ADMINUSERNAME: yegharr
+      ME_CONFIG_MONGODB_ADMINPASSWORD: test
+      ME_CONFIG_MONGODB_URL: mongodb://yegharr:test@mongo:27017/
+    networks:
+      Net2:
+        ipv4_address: "172.29.0.30"  
+networks:
+  Net2:
+    ipam:
+      driver: default
+      config:
+        - subnet: "172.29.0.0/24"     
+      
