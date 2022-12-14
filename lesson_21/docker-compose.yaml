@@ -1,0 +1,21 @@
+version: "3.3"
+services:
+  mariadb:
+    image: mariadb
+    ports:
+      - "3808:3808"
+    restart: on-failure
+    environment:
+      MYSQL_ROOT_PASSWORD: Alliance
+      MYSQL_DATABASE: test
+      MYSQL_USER: yegharr
+      MYSQL_PASSWORD: yegharr
+    logging:
+      driver: syslog
+    networks:
+      - backend
+    volumes:
+     - ${PWD}/mariadb:/var/lib/mysql
+networks:
+  backend:
+    driver: bridge          
