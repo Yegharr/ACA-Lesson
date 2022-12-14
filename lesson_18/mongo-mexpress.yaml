@@ -8,7 +8,9 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: test
     networks:
       Net2:
-        ipv4_address: "172.29.0.20"  
+        ipv4_address: "172.31.0.20"
+    volumes:
+      - mongo-data:/data/db    
   mongo-express:
     image: mongo-express
     restart: always
@@ -20,11 +22,13 @@ services:
       ME_CONFIG_MONGODB_URL: mongodb://yegharr:test@mongo:27017/
     networks:
       Net2:
-        ipv4_address: "172.29.0.30"  
+        ipv4_address: "172.31.0.30"  
 networks:
   Net2:
     ipam:
       driver: default
       config:
-        - subnet: "172.29.0.0/24"     
-      
+        - subnet: "172.31.0.0/24"     
+volumes:
+  mongo-data: 
+    driver: local   
