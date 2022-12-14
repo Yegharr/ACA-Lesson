@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  nginx:
+      image: nginx:latest
+      container_name: reverse_proxy
+      ports:
+        - 80:80
+      volumes:
+        - ./nginx.conf:/etc/nginx/nginx.conf
+  Nodejs:
+    image: .
+    ports:
+      -80:8080
