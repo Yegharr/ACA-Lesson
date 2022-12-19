@@ -1,0 +1,29 @@
+version: "3.9"
+services:
+
+  bomberman:
+    image: tuxes3/bomberman
+    networks:
+      - webapp
+  mario:
+    image: pengbai/docker-supermario
+    networks:
+      - webapp
+  pacman:
+    image: golucky5/pacman
+    networks:
+      - webapp
+  nginx:
+    image: nginx:latest
+    volumes:
+      - ./nginx:/etc/nginx/conf.d
+    restart: always 
+    networks:
+      - webapp
+    ports:
+      - "80:80"
+      
+networks:
+  webapp: 
+    driver: bridge
+    
