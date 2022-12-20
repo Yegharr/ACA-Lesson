@@ -3,14 +3,14 @@ version: '3.8'
 services:
   web:
     build:
-      context: ./web
-      dockerfile: Dockerfile
-    command: gunicorn --bind 0.0.0.0:5000 manage:app
+      context: ./services/web
+      dockerfile: Dockerfile.prod
+    command: gunicorn --bind 0.0.0.0:7000 manage:app
     volumes:
       - static_volume:/home/app/web/project/static
       - media_volume:/home/app/web/project/media
     expose:
-      - 5000
+      - 7000
     env_file:
       - ./.env.prod
     depends_on:
@@ -27,7 +27,7 @@ services:
       - static_volume:/home/app/web/project/static
       - media_volume:/home/app/web/project/media
     ports:
-      - 1337:80
+      - 1500:80
     depends_on:
       - web
 
