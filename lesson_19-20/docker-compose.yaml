@@ -1,7 +1,8 @@
 version: "3.9"
 services:
-  node:
-    image: .
+
+  nodejs:
+    build: .
     ports:
       - "8080:8080"
     networks:
@@ -9,15 +10,15 @@ services:
   nginx:
     image: nginx:latest
     volumes:
-      - $PWD/nginx.conf:/etc/nginx/conf.d
-    ports:
-      - "80:80"
+      - ./nginx:/etc/nginx/conf.d
+    restart: always
     networks:
       - webapp
+    ports:
+      - "80:80"
     depends_on:
-      - node
-    restart: always
+      - nodejs
+
 networks:
   webapp:
     driver: bridge
-    
