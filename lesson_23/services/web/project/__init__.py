@@ -27,8 +27,8 @@ class User(db.Model):
 
 
 @app.route("/")
-def hello_Babken():
-    return jsonify(hello="Babken")
+def hello_world():
+    return jsonify(hello="world")
 
 
 @app.route("/static/<path:filename>")
