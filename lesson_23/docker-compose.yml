@@ -1,0 +1,43 @@
+version: '3.3'
+
+services:
+  web:
+    build: ./services/web
+    command: python manage.py run -h 0.0.0.0
+    volumes:
+      - ./services/web/:/usr/src/app/
+    ports:
+      - 5000:5000
+    networks:
+      - web1    
+    env_file:
+      - ./.env.dev
+    depends_on:
+      - db-aca
+  db-aca:
+    image: postgres:13-alpine
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    networks:
+      - web1    
+    environment:
+      - POSTGRES_USER=aca
+      - POSTGRES_PASSWORD=test
+      - POSTGRES_DB=aca-dev
+
+  nginx:
+    build: ./services/nginx 
+    ports:
+      - 80:80
+    depends_on:
+      - web
+    networks:
+      - web1
+
+networks:
+  web1:
+    driver: bridge
+
+
+volumes:
+  postgres_data:
