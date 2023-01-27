@@ -1,0 +1,7 @@
+vpc_cidr_block = "10.0.0.0/16"
+subnet_cidr_block = "10.0.20.0/24"
+availability_zone = "us-east-1a"
+prefix = "dev"
+instance_type = "t2.micro"
+region = "us-east-1"
+public_ip = "true"
