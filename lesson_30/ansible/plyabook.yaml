@@ -2,4 +2,6 @@
   gather_facts: yes
   any_errors_fatal: true
   roles:
-    - docker
+    - role: docker
+    - role: nginx
+    

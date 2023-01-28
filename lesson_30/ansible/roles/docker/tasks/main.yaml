@@ -1,19 +1,25 @@
 
-    - name: Install Docker
-      ansible.builtin.shell: cd ~ && curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
+    # - name: Install Docker
+    #   ansible.builtin.shell: cd ~ && curl -fsSL https://get.docker.com -o get-docker.sh && sudo sh get-docker.sh
 
 
+    - name: Add Docker GPG apt Key
+      apt_key:
+        url: https://download.docker.com/linux/ubuntu/gpg
+        state: present
 
+    - name: Add Docker Repository
+      apt_repository:
+        repo: deb https://download.docker.com/linux/ubuntu focal stable
+        state: present
 
-#  - name: Install Docker
-#    ansible.builtin.shell: docker run --name nginx -p 80:80 -d nginx
+    - name: Update apt and install docker-ce
+      apt:
+        name: docker-ce
+        state: latest
+        update_cache: true
 
-
-    # - name: Install Docker Engine
-    #   apt:
-    #     name: docker.io
-    #     state: present
-
+        
     - name: Install Docker CLI
       apt:
         name: docker-compose
@@ -25,23 +31,5 @@
         state: started
         enabled: true
 
-    - name: Pull nginx Docker image
-      docker_image:
-        name: nginx
-        source: pull
-
-    - name: Create volume
-      docker_volume:
-        name: nginx-data
-        driver: local
-
-    - name: Run nginx Docker container
-      docker_container:
-        name: nginx
-        image: nginx
-        state: started
-        ports:
-          - "80:80"
-        volumes:
-          - "nginx-data:/usr/share/nginx/html:ro"        
+      
 
