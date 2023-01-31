@@ -3,7 +3,8 @@ provider "aws" {
 }
 
 variable  vpc_cidr_block {}
-variable  subnet_cidr_block {}
+variable  subnet_cidr_block1 {}
+variable  subnet_cidr_block2 {}
 variable  availability_zone {}
 variable  prefix {}
 variable  instance_type {}
@@ -14,7 +15,7 @@ variable  public_ip {}
 
 resource "aws_vpc" "app-vpc" {
     cidr_block = var.vpc_cidr_block
-    
+
     tags = {
         Name = "${var.prefix}-vpc"
   }
@@ -22,29 +23,29 @@ resource "aws_vpc" "app-vpc" {
 
 resource "aws_subnet" "subnet-one" {
     vpc_id = aws_vpc.app-vpc.id
-    cidr_block = var.subnet_cidr_block
+    cidr_block = var.subnet_cidr_block1
     availability_zone = var.availability_zone
     map_public_ip_on_launch = var.public_ip
-    
+
     tags = {
         Name = "subnet-one"
-  } 
+  }
 }
 
 resource "aws_subnet" "subnet-two" {
     vpc_id = aws_vpc.app-vpc.id
-    cidr_block = "10.0.30.0/24"
+    cidr_block = var.subnet_cidr_block2
     availability_zone = "us-east-1b"
     map_public_ip_on_launch = var.public_ip
-    
+
     tags = {
         Name = "subnet-two"
-  } 
+  }
 }
 
 resource "aws_internet_gateway" "app-ig"{
     vpc_id = aws_vpc.app-vpc.id
-  
+
   tags = {
     Name = "${var.prefix}-ig"
   }
@@ -52,12 +53,12 @@ resource "aws_internet_gateway" "app-ig"{
 
 resource "aws_route_table" "app-rt"{
     vpc_id = aws_vpc.app-vpc.id
-    
+
     route {
     cidr_block = "0.0.0.0/0"
     gateway_id = aws_internet_gateway.app-ig.id
     }
-    
+
     tags = {
     Name = "${var.prefix}-rt"
     }
@@ -76,7 +77,7 @@ resource "aws_route_table_association" "ass-rt2" {
 resource "aws_security_group" "app-sg" {
     name = "${var.prefix}-sg"
     vpc_id = aws_vpc.app-vpc.id
-  
+
   dynamic "ingress" {
     for_each = ["80", "443", "22", "8080"  ]
     content {
@@ -103,7 +104,7 @@ data "aws_ami" "latest-ubuntu-image" {
     owners =["099720109477"]
     filter {
       name = "name"
-      values =  ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"] 
+      values =  ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
     }
 }
 
@@ -128,6 +129,3 @@ output "instance_public_ip" {
   description = "Public IP address of the EC2 instance"
   value = aws_instance.EC2-machine.*.public_ip
 }
-
-
-
