@@ -33,8 +33,8 @@ resource "aws_subnet" "subnet-one" {
 }
 
 resource "aws_subnet" "subnet-two" {
-    vpc_id = aws_vpc.app-vpc.id
-    cidr_block = var.subnet_cidr_block2
+   vpc_id = aws_vpc.app-vpc.id
+   cidr_block = var.subnet_cidr_block2
     availability_zone = "us-east-1b"
     map_public_ip_on_launch = var.public_ip
 
@@ -100,32 +100,32 @@ resource "aws_security_group" "app-sg" {
 }
 
 data "aws_ami" "latest-ubuntu-image" {
-    most_recent = true
-    owners =["099720109477"]
-    filter {
-      name = "name"
-      values =  ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
-    }
+     most_recent = true
+     owners =["099720109477"]
+     filter {
+       name = "name"
+       values =  ["ubuntu/images/hvm-ssd/ubuntu-jammy-22.04-amd64-server-*"]
+     }
 }
 
-resource "aws_instance" "EC2-machine" {
-  count = 3
-  ami = data.aws_ami.latest-ubuntu-image.id
-  instance_type = var.instance_type
+ resource "aws_instance" "EC2-machine" {
+   count = 2
+   ami = data.aws_ami.latest-ubuntu-image.id
+   instance_type = var.instance_type
 
-  subnet_id = aws_subnet.subnet-one.id
-  vpc_security_group_ids = [aws_security_group.app-sg.id]
-  availability_zone = var.availability_zone
-  associate_public_ip_address = var.public_ip
-  key_name = "EC2-key-pair"
+   subnet_id = aws_subnet.subnet-one.id
+   vpc_security_group_ids = [aws_security_group.app-sg.id]
+   availability_zone = var.availability_zone
+   associate_public_ip_address = var.public_ip
+   key_name = "EC2_key-pair"
 
-  tags = {
-    Name    = "EC2-machine-${count.index + 1}"
-  }
-}
+   tags = {
+     Name    = "EC2-machine-${count.index + 1}"
+   }
+ }
 
 
-output "instance_public_ip" {
-  description = "Public IP address of the EC2 instance"
-  value = aws_instance.EC2-machine.*.public_ip
-}
+ output "instance_public_ip" {
+   description = "Public IP address of the EC2 instance"
+   value = aws_instance.EC2-machine.*.public_ip
+ }
